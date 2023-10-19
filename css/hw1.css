@@ -1,0 +1,135 @@
+body {
+    -moz-padding: (15px);
+    -webkit-padding: (15px);
+    -o-padding: (15px);
+    -ms-padding: (15px);
+    padding: 15px;
+
+    -moz-margin: (30px);
+    -webkit-margin: (30px);
+    -o-margin: (30px);
+    -ms-margin: (30px);
+    margin: 30px;
+
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+}
+
+header {
+    background-color: rgb(240, 185, 240);
+    background-image: url('../images/flywheel.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 20px;
+    text-align: center;
+}
+
+nav a {
+    background: hsla(0, 0%, 100%, 0.499);
+    margin: 0px 100px 40px 30px;
+    padding: 20px 15px 20px 15px;
+    font-size: 150%;
+    display: inline-block;
+    border-radius: 15px;
+    text-decoration: none;
+}
+
+a {
+    color: #000000;
+    background-color: rgb(245, 245, 220);
+}
+
+.active {
+    background: rgb(255, 255, 255);
+    color: #1d0263;
+}
+
+section {
+    display: inline-block;
+    width: 79%;
+    font-size: 250%;
+}
+
+h1 {
+    color: #ffffff;
+    text-transform: uppercase;
+    text-align: center;
+    font-size: 300%;
+}
+
+h2 {
+    color: #000000;
+    font-size: 150%;
+}
+
+.left {
+    background-color: rgb(157, 142, 83);
+    width: 20%;
+    display: inline-block;
+    height: 1500px;
+}
+
+.right {
+    float: right;
+}
+
+img {
+    border: 3px solid #000000;
+    margin: 50px auto 50px auto;
+    display: block;
+    width: 80%;
+}
+
+/* Final project */
+table {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 100%;
+    font-weight: 350;
+    line-height: 60px;
+    width: 80%;
+    margin: 0 auto;
+    border-collapse: separate;
+    border-spacing: 5px 5px;
+}
+
+th {
+    background: #c7ea96;
+    background: linear-gradient(#c7ea96 0%, rgb(157, 142, 83) 100%);
+    background: -moz-linear-gradient(top, #c7ea96 0%, rgb(157, 142, 83) 100%);
+    background: -webkit-linear-gradient(#c7ea96 0%, rgb(157, 142, 83) 100%);
+    background: -o-linear-gradient(#c7ea96 0%, rgb(157, 142, 83) 100%);
+    border-top: 3px;
+    border-left: 3px;
+    border-right: 3px;
+    border-bottom: 5px;
+    border-color: #000000;
+    border-style: solid;
+    border-top-right-radius: 15px;
+    border-top-left-radius: 15px;
+    text-transform: uppercase;
+}
+
+tr {
+    opacity: .8;
+}
+
+th:first-child,
+td:first-child {
+    text-align: left;
+}
+
+td:nth-child(2),
+:nth-child(3) {
+    text-align: center;
+}
+
+tr:hover {
+    opacity: 1;
+}
+
+td {
+    background-color: rgb(243, 243, 202);
+    color: #212121;
+    padding: 10px;
+    border-radius: 2px;
+    text-shadow: 1px 1px 2px rgb(97, 127, 13);
+}
